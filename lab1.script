@@ -1,0 +1,86 @@
+Script started on 2015年03月10日 (週二) 17時16分53秒
+]0;F74036475@2015cpp: ~F74036475@2015cpp:~$ whoami; pwd
+F74036475
+/home/F74036475
+]0;F74036475@2015cpp: ~F74036475@2015cpp:~$ git config ‐l
+git: 'config ‐l' is not a git command. See 'git --help'.
+]0;F74036475@2015cpp: ~F74036475@2015cpp:~$ git config ‐l[Kl
+git: 'config ‐l' is not a git command. See 'git --help'.
+]0;F74036475@2015cpp: ~F74036475@2015cpp:~$ git config ‐l[1@$
+config ‐l: command not found
+]0;F74036475@2015cpp: ~F74036475@2015cpp:~$ $git config ‐l[K[K[K[C[C[C[C[C[C[C[C[C[C[C[1P
+usage: git config [options]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 adds a new variable: name value
+    --unset               removes a variable: name [value-regex]
+    --unset-all           removes all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            opens an editor
+    --get-color <slot>    find the color configured: [default]
+    --get-colorbool <slot>
+                          find the color setting: [stdout-is-tty]
+
+Type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+
+Other
+    -z, --null            terminate values with NUL byte
+
+]0;F74036475@2015cpp: ~F74036475@2015cpp:~$ git config -l
+user.name=45151431
+user.email=f74036475@mail.ncku.edu.tw
+]0;F74036475@2015cpp: ~F74036475@2015cpp:~$ git config -l[K$git config ‐l[1P[C[C[C[C[C[C[C[C[C[C[C[C[C
+git: 'config ‐l' is not a git command. See 'git --help'.
+]0;F74036475@2015cpp: ~F74036475@2015cpp:~$ git config ‐l -l[1Pl-l[C
+user.name=45151431
+user.email=f74036475@mail.ncku.edu.tw
+]0;F74036475@2015cpp: ~F74036475@2015cpp:~$ -[Kgit clone https://github.com/<your github account>/lab1.git
+bash: your: No such file or directory
+]0;F74036475@2015cpp: ~F74036475@2015cpp:~$ git clone https://github.com/<your github account>/lab1.git[C[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git[1P/lab1.git</lab1.git4/lab1.git5/lab1.git1/lab1.git5/lab1.git4/lab1.git[1P/lab1.git[1P4515/lab1.git[C[C[C[C1/lab1.git4/lab1.git3/lab1.git1/lab1.git[C[C[C[C[C[C[C[C[C
+Cloning into 'lab1'...
+Username for 'https://github.com': 45151431
+Password for 'https://45151431@github.com': 
+fatal: Authentication failed
+]0;F74036475@2015cpp: ~F74036475@2015cpp:~$ git clone https://github.com/45151431/lab1.git
+Cloning into 'lab1'...
+Username for 'https://github.com': 45151431
+Password for 'https://45151431@github.com': 
+error: The requested URL returned error: 403 while accessing https://github.com/45151431/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74036475@2015cpp: ~F74036475@2015cpp:~$ git clone https://github.com/45151431/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Cloning into 'lab1'...
+Username for 'https://github.com': fatal: could not read Username for 'https://github.com': No such file or directory
+]0;F74036475@2015cpp: ~F74036475@2015cpp:~$ git clone https://github.com/45151431/lab1.git[1P/45151431/lab1.git[1P/45151431/lab1.git[1P/45151431/lab1.git[1P/45151431/lab1.git[1P/45151431/lab1.git[1P/45151431/lab1.git[1P/45151431/lab1.git[1P/45151431/lab1.git[1P/45151431/lab1.git[1P/45151431/lab1.git[1P45151431/lab1.git[1P45151431/lab1.git[1P/45151431/lab1.git[1P/45151431/lab1.git[1P/45151431/lab1.git[1P/45151431/lab1.git[1P/45151431/lab1.git[1P/45151431/lab1.git[1P/45151431/lab1.git /45151431/lab1.gith/45151431/lab1.gitt/45151431/lab1.gitt/45151431/lab1.gitp/45151431/lab1.gits/45151431/lab1.git:/45151431/lab1.git[C/45151431/lab1.git[C/45151431/lab1.gitg/45151431/lab1.giti/45151431/lab1.gitt/45151431/lab1.gith/45151431/lab1.gitu/45151431/lab1.gitb/45151431/lab1.git./45151431/lab1.gitc/45151431/lab1.gito/45151431/lab1.gitm/45151431/lab1.git[C/45151431/lab1.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Cloning into 'lab1'...
+error: The requested URL returned error: 403 while accessing https://github.com//45151431/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74036475@2015cpp: ~F74036475@2015cpp:~$ git clone https://github.com//45151431/lab1.git
+Cloning into 'lab1'...
+error: The requested URL returned error: 403 while accessing https://github.com//45151431/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74036475@2015cpp: ~F74036475@2015cpp:~$ git clone https://github.com//45151431/lab1.git
+Cloning into 'lab1'...
+error: The requested URL returned error: 403 while accessing https://github.com//45151431/lab1.git/info/refs
+fatal: HTTP request failed
+]0;F74036475@2015cpp: ~F74036475@2015cpp:~$ git clone https://github.com//45151431/lab1.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khttps://github.com/45151431/lab1.git
+Cloning into 'lab1'...
+warning: You appear to have cloned an empty repository.
+]0;F74036475@2015cpp: ~F74036475@2015cpp:~$ exit
+
+Script done on 2015年03月10日 (週二) 17時29分59秒
